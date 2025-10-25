@@ -1,13 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Room Booking</title>
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Hotel Room Booking Form</title> 
+</head> 
+<body> 
+<h1 align="center">Hotel Room Booking Form</h1> 
 
-</head>
-<body>
+<form action="#" method="post" align="center"> 
+    <fieldset style="display:inline-block; text-align:left;"> 
     
-    
-</body>
+        
+        <label for="fullname">Full Name:</label> 
+        <input type="text" placeholder="Your Fullname" required> 
+        <br><br> 
+
+        <label for="email">Email:</label> 
+        <input type="email" placeholder="Email Id" required>
+        <br><br> 
+
+       
+        <label for="phone">Phone:</label> 
+        <input type="tel" placeholder="Phone no" required> 
+        <br><br> 
+
+        <label for="checkin">Check-in Date:</label> 
+        <input type="date" placeholder="Checkin Date"> 
+        <br><br> 
+
+        <label for="checkout">Check-out Date:</label> 
+        <input type="date" placeholder="Checkout Date"> 
+        <br><br> 
+
+       
+        <label for="room">Room Type:</label> 
+        <select  placeholder="room"> 
+            <option value="single">Single Room</option> 
+            <option value="double">Double Room</option> 
+            <option value="deluxe">Deluxe Room</option> 
+            <option value="suite">Suite</option> 
+        </select> 
+        <br><br> 
+
+     
+        <label for="guests">Number of Guests:</label> 
+        <input type="number" placeholder="Total no of Guests" min="1" max="10"> 
+        <br><br> 
+
+        
+        <label for="requests">Special Requests:</label><br> 
+        <textarea id="requests" name="requests" rows="4" col="30"></textarea>
+        <br><br> 
+
+      
+        <input type="submit" value="Book Now"> 
+        <input type="reset" value="Reset Form"> 
+
+    </fieldset>  
+</form> 
+<hr>
+<h3 style="color:crimson">Name:Minakshi Singh</h2>
+<h3 style="color:crimson">class= CSE21</h3>
+<h3 style="color:crimson">Admission no=2025b01010783</h3>
+
+</body> 
 </html>
