@@ -1,0 +1,15 @@
+h1 {
+    color:rgb(59, 213, 77);
+}
+
+p {
+    color:bisque;
+}
+
+body {
+    background-color: rgb(204, 148, 230);
+}
+button {
+    color:brown;
+    background-color: blue;
+}
