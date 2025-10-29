@@ -1,0 +1,31 @@
+*{
+    color: blue;
+}
+
+#head1{
+    color: black;
+    font-weight: 200;
+}
+#head2{
+    color: blueviolet;
+    font-weight: 300;
+}
+#head3{
+    color: brown;
+    font-weight: 600;
+}
+
+button{
+    color: aquamarine;
+}
+.myclass{
+    color: chartreuse;
+}
+#blue{
+    text-align: center;
+    color: brown;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
